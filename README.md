@@ -1,27 +1,65 @@
-# ServerManagement
+# Server-Management
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
+## Overview
+This project dives deep into Angular components, exploring various concepts in greater detail. The following topics are covered:
 
-## Development server
+- Importing & using components
+- Selectors
+- Styling Components
+- Accepting data with input properties
+- Custom events with outputs
+- Function-based outputs
+- Content Projection with `ng-content`
+- Component Host elements
+- Component Lifecycle
+- Referencing component children with queries
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+1. Importing & Using Components
+2. Selectors
+3. Styling Components
+4. Accepting Data with Input Properties
+5. Custom Events with Outputs
+6. Function-Based Outputs
+7. Content Projection with `ng-content`
+8. Component Host Elements
+9. Component Lifecycle
+10. Referencing Component Children with Queries
 
-## Code scaffolding
+## Importing & Using Components
+To import and use components, follow these steps:
+1. Declare the component in the `imports` array.
+2. Use the component in your templates.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Selectors
+Selectors are used to define the custom HTML tags for your components. They can be defined using the `selector` property in the component decorator.
 
-## Build
+## Styling Components
+Components can be styled using inline styles, external stylesheets, or Angular's built-in style encapsulation.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Accepting Data with Input Properties
+Input properties allow you to pass data from a parent component to a child component using the `input` function.
 
-## Running unit tests
+## Custom Events with Outputs
+Custom events can be created using the `@Output` decorator and `EventEmitter` to allow child components to send data to parent components.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Function-Based Outputs
+Function-based outputs enable you to handle events and data emission using functions.
 
-## Running end-to-end tests
+## Content Projection with `ng-content`
+Content projection allows you to insert content into a component from outside the component using the `ng-content` directive.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Component Host Elements
+Component host elements can be styled and manipulated using the `:host` selector in the component's styles.
 
-## Further help
+## Component Lifecycle
+Angular components have a lifecycle managed by Angular. Key lifecycle hooks include `ngOnInit`, `ngOnChanges`, `ngOnDestroy`, etc.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Referencing Component Children with Queries
+You can reference child components and DOM elements using `viewChild()` and `contentChild()` decorators.
+
+## Conclusion
+This project provides a comprehensive guide to working with Angular components, covering essential concepts and best practices.
+
+## Getting Started
+To get started with this project, clone the repository and install the dependencies:
